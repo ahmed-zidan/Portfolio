@@ -2,9 +2,9 @@
 {
     public class Address : EntityBase
     {
-        public string Street { set; get; }
+        public string Country { set; get; }
         public string City { set; get; }
-        public int Number { get; set; }
+        public string Street { get; set; }
     }
 
 }
